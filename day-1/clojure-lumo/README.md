@@ -5,9 +5,26 @@
 You'll need Lumo.
 
 ```
-./captcha.cljs 4245324
-FIRST: 2222
-SECOND: 3233
+./captha.cljs 4245324
+CHALLENGE
+4245324
+---------
+FIRST: 4
+SECOND: 0
+
+./captha.cljs 1122
+CHALLENGE
+4245324
+---------
+FIRST: 4
+SECOND: 0
+
+./captha.cljs 123425
+CHALLENGE
+123425
+---------
+FIRST: 0
+SECOND: 4
 
 ./captha.cljs "$(< input.txt)"
 CHALLENGE
