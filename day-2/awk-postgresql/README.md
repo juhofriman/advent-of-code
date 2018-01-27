@@ -8,13 +8,15 @@ Docker spells included.
 
 ```
 ./start-container.sh
-./psql-to.container.sh
+./psql-to-container.sh
 
 # Password is postgres
 ```
 
 ```
 ./make-solving-sqls.sh input.txt
+**WHOLE SMORGASBORD OF SQL**
+**WHOLE SMORGASBORD OF SQL**
 
 ## and paste output to psql console
 
@@ -29,4 +31,4 @@ postgres=# WITH calculations AS (SELECT a.row, a.value, b.value, a.value /  b.va
 ------------
 !!!!!!!!!!!!
 (1 row)
-``
+```
